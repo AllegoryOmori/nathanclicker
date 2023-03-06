@@ -1,0 +1,34 @@
+body{
+    background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#nathan{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 25px;
+    width: 25%;
+    height: 25%;
+    max-width: 150px;
+    max-height: 150px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#counter{
+    text-align: center;
+    margin-top: 25vh;
+    
+}
+#z{
+    text-align: center;
+}
+#y{
+    text-align: center;
+}
