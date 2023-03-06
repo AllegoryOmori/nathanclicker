@@ -1,4 +1,4 @@
-var count = 1;
+var count = 0;
 document.getElementById("nathan").onclick = function(){
     document.getElementById("counter").innerHTML = count;
     count += Math.floor(Math.random() *3 + 1);
