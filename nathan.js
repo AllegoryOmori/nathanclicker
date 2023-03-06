@@ -29,7 +29,7 @@ if(count>=100000){
     count += Math.floor(Math.random() *100+ 1);
     document.getElementById("nathan").src="Nate3.png";
     document.getElementById("counter").innerHTML = count;
-    document.getElementById("y").innerHTML="You Have unlocked Goated™ Nathan Skin " + "You have reached the End!";
+    document.getElementById("y").innerHTML="You Have unlocked Goated™ Nathan Skin! " + "You have reached the End!";
     document.getElementById("z").innerHTML="Level 5: Goated Nathan";
     document.getElementById("nathan").src="Deadgoat.png";
  
