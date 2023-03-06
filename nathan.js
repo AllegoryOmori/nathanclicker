@@ -1,4 +1,4 @@
-var count = 100000;
+var count = 1;
 document.getElementById("nathan").onclick = function(){
     document.getElementById("counter").innerHTML = count;
     count += Math.floor(Math.random() *3 + 1);
@@ -31,9 +31,7 @@ if(count>=100000){
     document.getElementById("counter").innerHTML = count;
     document.getElementById("y").innerHTML="You have unlocked the ShrenkxNate™ Nathan Skin! " + "You have reached the End!";
     document.getElementById("z").innerHTML="Level 5: Goated Nathan";
-    document.getElementById("freepik").innerHTML="Designed by Freepik"
-
-}
+    
  
 }
-
+}
