@@ -6,6 +6,7 @@ document.getElementById("nathan").onclick = function(){
 if(count >= 30){
     document.getElementById("counter").innerHTML = count;
     count+=Math.floor(Math.random() *6 + 1);
+    document.getElementById("nathan").src="Nate.png";
     document.getElementById("z").innerHTML="Level 2: Goofy Nathan";
 }
 if(count>=500){
