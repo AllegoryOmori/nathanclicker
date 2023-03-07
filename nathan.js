@@ -7,6 +7,7 @@ if(count >= 30){
     document.getElementById("counter").innerHTML = count;
     count+=Math.floor(Math.random() *6 + 1);
     document.getElementById("nathan").src="Nate.png";
+    document.getElementById("y").innerHTML="You have unlocked the Normal™ Nathan Skin!";
     document.getElementById("z").innerHTML="Level 2: Goofy Nathan";
 }
 if(count>=500){
