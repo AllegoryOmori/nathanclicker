@@ -3,12 +3,12 @@ document.getElementById("nathan").onclick = function(){
     document.getElementById("counter").innerHTML = count;
     count += Math.floor(Math.random() *3 + 1);
     
-if(count >= 30){
+if(count >= 50){
     document.getElementById("counter").innerHTML = count;
     count+=Math.floor(Math.random() *6 + 1);
-    document.getElementById("nathan").src="Nate.png";
-    document.getElementById("y").innerHTML="You have unlocked the Normal™ Nathan Skin!";
-    document.getElementById("z").innerHTML="Level 2: Goofy Nathan";
+    document.getElementById("nathan").src="Nate0.png";
+    document.getElementById("y").innerHTML="You have unlocked the DeviousAhh™ Nathan Skin!";
+    document.getElementById("z").innerHTML="Level 2: Devious Nathan";
 }
 if(count>=500){
     document.getElementById("counter").innerHTML = count;
