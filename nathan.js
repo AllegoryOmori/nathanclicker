@@ -6,17 +6,17 @@ document.getElementById("nathan").onclick = function(){
 if(count >= 50){
     document.getElementById("counter").innerHTML = count;
     count+=Math.floor(Math.random() *6 + 1);
-    document.getElementById("nathan").src="Nate0.png";
-    document.getElementById("y").innerHTML="You have unlocked the DeviousAhh™ Nathan Skin!";
-    document.getElementById("z").innerHTML="Level 2: Devious Nathan";
+    document.getElementById("nathan").src="Nate1.png";
+    document.getElementById("z").innerHTML="Level 2: Normal Nathan";
+    document.getElementById("y").innerHTML="You have unlocked the amogusnotcopyrightedhopefully™ Nathan Skin!";
 }
 if(count>=500){
     document.getElementById("counter").innerHTML = count;
     count+=Math.floor(Math.random() *12+ 1);;
     Math.floor(Math.random() *12 + 1);
-    document.getElementById("nathan").src="Nate1.png";
-    document.getElementById("z").innerHTML="Level 3: Normal Nathan";
-    document.getElementById("y").innerHTML="You have unlocked the amogusnotcopyrightedhopefully™ Nathan Skin!";
+    document.getElementById("nathan").src="Nate0.png";
+    document.getElementById("y").innerHTML="You have unlocked the DeviousAhh™ Nathan Skin!";
+    document.getElementById("z").innerHTML="Level 3: Devious Nathan";
 }
 if(count>=5000){    
 
